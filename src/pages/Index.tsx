@@ -3,8 +3,8 @@ import { Heart } from "lucide-react";
 
 const noTexts = [
   "No",
-  "No by mistake ik, but I give u another chance 😏",
-  "Hmm... are you sure? Last chance! 🥺",
+  "No by mistake ik, but I give u another chance 😏😏",
+  "               Hmm... are you sure? Last chance! 😏😏",
 ];
 
 const yesScales = [1, 1.4, 1.8, 2.2];
@@ -61,7 +61,7 @@ const Index = () => {
         Will you be my Valentine?
       </h1>
       <p className="mt-3 text-lg text-muted-foreground font-semibold">
-        Please say yes 🥹
+        🥹🥹🥹
       </p>
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
