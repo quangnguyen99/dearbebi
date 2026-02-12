@@ -4,10 +4,8 @@ import { Heart } from "lucide-react";
 const noTexts = [
   "No",
   "No by mistake ik, but I give u another chance 😏😏",
-  "               Hmm... are you sure? Last chance! 😏😏",
+  "Hmm... are you sure? Last chance! 😏😏",
 ];
-
-const yesScales = [1, 1.4, 1.8, 2.2];
 
 const Index = () => {
   const [stage, setStage] = useState(0);
@@ -65,18 +63,19 @@ const Index = () => {
       </p>
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+        {/* YES BUTTON */}
         <button
           onClick={() => setAccepted(true)}
-          className="rounded-xl bg-primary text-primary-foreground font-bold shadow-lg hover:brightness-110 transition-all duration-300"
+          className="rounded-xl bg-primary text-primary-foreground font-bold shadow-lg hover:brightness-110 transition-all duration-300 min-w-[120px]"
           style={{
-            transform: `scale(${yesScales[stage]})`,
-            padding: `${12 + stage * 4}px ${32 + stage * 8}px`,
-            fontSize: `${16 + stage * 4}px`,
+            padding: `${12 + stage * 8}px ${32 + stage * 16}px`,
+            fontSize: `${16 + stage * 6}px`,
           }}
         >
           Yes 💖
         </button>
 
+        {/* NO BUTTON */}
         {stage < 3 && (
           <button
             onClick={handleNo}
