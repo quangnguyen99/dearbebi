@@ -41,7 +41,7 @@ const Index = () => {
           />
         </div>
         <h1 className="mt-8 text-5xl font-black text-foreground md:text-7xl">
-          Yaaay! 🎉
+          Yaaaaaaaaaaayyy! 🎉
         </h1>
         <p className="mt-4 text-xl text-muted-foreground font-semibold">
           I knew you'd say yes! 💕
