@@ -38,12 +38,21 @@ const Index = () => {
             fill="currentColor"
           />
         </div>
+
         <h1 className="mt-8 text-5xl font-black text-foreground md:text-7xl">
           Yaaaaaaaaaaayyy! 🎉
         </h1>
+
         <p className="mt-4 text-xl text-muted-foreground font-semibold">
           I knew you'd say yes! 💕
         </p>
+
+        {/* GIF */}
+        <img
+          src="https://media1.tenor.com/m/51ihjs2ELfAAAAAC/ai-cat-cat-ai.gif"
+          alt="cute cat"
+          className="mt-6 w-72 rounded-xl shadow-xl"
+        />
       </div>
     );
   }
@@ -55,9 +64,11 @@ const Index = () => {
         size={80}
         fill="currentColor"
       />
+
       <h1 className="text-4xl font-black text-foreground md:text-6xl text-center">
         Will you be my Valentine?
       </h1>
+
       <p className="mt-3 text-lg text-muted-foreground font-semibold">
         🥹🥹🥹
       </p>
